@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:clickable="true"
+    tools:context=".Fragment.EnquiryGenerationFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="30dp">
+
+
+            <in.prax.tamalproject.view.MyEditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/register_background_edittext"
+                android:hint="Enter Name"
+                android:padding="10dp" />
+
+            <in.prax.tamalproject.view.MyEditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/register_background_edittext"
+                android:hint="Company"
+                android:padding="10dp" />
+
+            <in.prax.tamalproject.view.MyEditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/register_background_edittext"
+                android:hint="Email address"
+                android:padding="10dp" />
+
+            <in.prax.tamalproject.view.MyEditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/register_background_edittext"
+                android:hint="Phone number"
+                android:padding="10dp" />
+
+            <in.prax.tamalproject.view.MyEditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/register_background_edittext"
+                android:hint="Type of project"
+                android:padding="10dp" />
+
+            <in.prax.tamalproject.view.MyEditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/register_background_edittext"
+                android:hint="State/ location"
+                android:padding="10dp" />
+
+            <in.prax.tamalproject.view.MyEditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/register_background_edittext"
+                android:hint="Message /Looking for"
+                android:padding="10dp" />
+
+            <in.prax.tamalproject.view.MyEditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/register_background_edittext"
+                android:hint="Application for use"
+                android:padding="10dp" />
+
+            <in.prax.tamalproject.view.MyTextView
+                android:id="@+id/toolsAndcategory"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="@string/u2022_tools_and_category"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/edtpassword1"
+                android:text="Need a callback from hilti account manager/email" />
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/edtpassword1"
+                android:text="Request for demo/technical visit at site" />
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/edtpassword1"
+                android:text="Last history if any" />
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/btnRegister"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/button_selector"
+                android:text="@string/submit"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+    </ScrollView>
+</FrameLayout>

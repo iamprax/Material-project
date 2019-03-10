@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:clickable="true"
+    tools:context=".Fragment.EnquiryGenerationFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="30dp">
+
+
+            <in.prax.tamalproject.view.MyEditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/register_background_edittext"
+                android:hint="Number of employees"
+                android:padding="10dp" />
+
+            <in.prax.tamalproject.view.MyEditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/register_background_edittext"
+                android:hint="Type of project"
+                android:padding="10dp" />
+
+
+            <in.prax.tamalproject.view.MyEditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/register_background_edittext"
+                android:hint="Duration of project"
+                android:padding="10dp" />
+
+            <in.prax.tamalproject.view.MyEditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/register_background_edittext"
+                android:hint="Application for use"
+                android:padding="10dp" />
+
+            <in.prax.tamalproject.view.MyTextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Please select any of the options below to tell us about your requirement"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:layout_width="match_parent"
+                android:id="@+id/chkVolume"
+                android:layout_height="wrap_content"
+                android:text="Volume purchase and bulk discount" />
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/chkrelatedtoprice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Related to price and existing discount" />
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="Please sign 'rate contract' to become our valued /regular customers and become eligible for available discount continiuously in future" />
+            <in.prax.tamalproject.view.MyTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="OR"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20sp" />
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/chkcallfurther"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Call AMs for further discussion" />
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/btnsubmitbofair"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/button_selector"
+                android:text="@string/submit"
+                android:textColor="@color/white"
+                android:visibility="gone" />
+        </LinearLayout>
+
+    </ScrollView>
+</FrameLayout>

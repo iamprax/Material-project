@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:clickable="true"
+    android:orientation="vertical"
+    android:padding="30dp">
+
+    <in.prax.tamalproject.view.MyEditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="20dp"
+        android:background="@drawable/register_background_edittext" />
+
+    <in.prax.tamalproject.view.MyTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="New discount will be updated with 24 working hours "
+        android:textColor="@color/colorPrimary"
+        android:textSize="20sp"
+
+        />
+</LinearLayout>

@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Activity.RegisterActivity"
+    tools:showIn="@layout/activity_register">
+
+
+    <RelativeLayout
+        android:id="@+id/registerstep1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="30dp"
+        >
+
+        <in.prax.tamalproject.view.MyTextView
+            android:id="@+id/txtfill"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Fill out registration form"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <in.prax.tamalproject.view.MyEditText
+            android:id="@+id/edtusername"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@id/txtfill"
+            android:layout_margin="10dp"
+            android:background="@drawable/register_background_edittext"
+            android:hint="Enter Email Adress"
+            android:padding="10dp" />
+
+        <in.prax.tamalproject.view.MyEditText
+            android:id="@+id/edtpassword"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/edtusername"
+            android:layout_margin="10dp"
+            android:background="@drawable/register_background_edittext"
+            android:hint="Enter Password"
+            android:padding="10dp" />
+
+        <in.prax.tamalproject.view.MyEditText
+            android:id="@+id/edtpassword1"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/edtpassword"
+            android:layout_margin="10dp"
+            android:background="@drawable/register_background_edittext"
+            android:hint="Re-Enter Password"
+            android:padding="10dp" />
+
+
+        <android.support.v7.widget.AppCompatCheckBox
+            android:id="@+id/chkterm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edtpassword1"
+            android:text="I have read and accept general terms and conditions for use an privacy policy." />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btnRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/chkterm"
+            android:layout_margin="10dp"
+            android:background="@drawable/button_selector"
+            android:text="@string/Register"
+            android:textColor="@color/white" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/registerstep3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="30dp"
+        android:visibility="gone">
+
+        <in.prax.tamalproject.view.MyTextView
+            android:id="@+id/txtfill2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Fill out account form"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <in.prax.tamalproject.view.MyEditText
+            android:id="@+id/edtCompanyname"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@id/txtfill2"
+            android:layout_margin="10dp"
+            android:background="@drawable/register_background_edittext"
+            android:hint="Enter Company name"
+            android:padding="10dp" />
+
+        <in.prax.tamalproject.view.MyEditText
+            android:id="@+id/edtaddress"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/edtCompanyname"
+            android:layout_margin="10dp"
+            android:background="@drawable/register_background_edittext"
+            android:hint="Enter address"
+            android:padding="10dp" />
+
+        <in.prax.tamalproject.view.MyEditText
+            android:id="@+id/edtpersonname"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/edtaddress"
+            android:layout_margin="10dp"
+            android:background="@drawable/register_background_edittext"
+            android:hint="Enter person name"
+            android:padding="10dp" />
+
+        <in.prax.tamalproject.view.MyEditText
+            android:id="@+id/edtjobtitle"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/edtpersonname"
+            android:layout_margin="10dp"
+            android:background="@drawable/register_background_edittext"
+            android:hint="Enter job title"
+            android:padding="10dp" />
+
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btnNextstep4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/edtjobtitle"
+            android:layout_margin="10dp"
+            android:background="@drawable/button_selector"
+            android:text="Next"
+            android:textColor="@color/white" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/registerstep2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone">
+
+        <in.prax.tamalproject.view.MyTextView
+            android:id="@+id/txtfill1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Confirm e-mail address"
+            android:textSize="22sp" />
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtfill1"
+            app:cardElevation="2dp"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp">
+
+                <android.support.v7.widget.AppCompatImageView
+                    android:layout_width="15dp"
+                    android:layout_height="fill_parent"
+                    android:src="@color/grass" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/register_background_edittext_green"
+                    android:orientation="vertical">
+
+                    <in.prax.tamalproject.view.MyTextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:padding="10dp"
+                        android:text="Thank yo for Registering"
+                        android:textAllCaps="true"
+                        android:textColor="@color/grass"
+                        android:textStyle="bold" />
+
+                    <in.prax.tamalproject.view.MyTextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:text="We have sent an e-mail to tamal@gmail.in with an activation link. "
+                        android:textSize="14sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/nextstep"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cardRegister"
+            android:layout_margin="10dp"
+            android:text="Next Step:"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/txtcheckmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/nextstep"
+            android:layout_margin="10dp"
+            android:text="Please check your e-mail to activate your account by clicking on the link.
+" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btnSendemailagain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtcheckmail"
+            android:layout_margin="10dp"
+            android:background="@drawable/button_selector"
+            android:text="Send activation email again"
+            android:textColor="@color/white" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/backtostep1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btnSendemailagain"
+            android:layout_margin="10dp"
+            android:background="@drawable/button_selector"
+            android:text="Back to registration"
+            android:textColor="@color/white" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/registerstep4"
+        android:layout_width="match_parent"
+        android:visibility="gone"
+        android:layout_height="wrap_content">
+
+        <in.prax.tamalproject.view.MyTextView
+            android:id="@+id/txtfill3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Complete registration"
+            android:textSize="22sp" />
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardRegister4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtfill3"
+            app:cardElevation="2dp"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp">
+
+                <android.support.v7.widget.AppCompatImageView
+                    android:layout_width="15dp"
+                    android:layout_height="fill_parent"
+                    android:src="@color/grass" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/register_background_edittext_green"
+                    android:orientation="vertical">
+
+                    <in.prax.tamalproject.view.MyTextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:padding="10dp"
+                        android:text="Send Account no in email and click to confirm"
+                        android:textAllCaps="true"
+                        android:textColor="@color/grass"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cardRegister4"
+            android:background="@drawable/register_background_edittext_green"
+            android:weightSum="2">
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/btnConfirm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+
+                android:layout_weight="1"
+                android:background="@drawable/button_selector"
+                android:text="Confirm"
+                android:textColor="@color/white" />
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/backtostep3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+
+                android:layout_weight="1"
+                android:background="@drawable/button_selector"
+                android:text="Back"
+                android:textColor="@color/white" />
+        </LinearLayout>
+    </RelativeLayout>
+
+
+</RelativeLayout>

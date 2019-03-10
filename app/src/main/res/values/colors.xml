@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#fe0202</color>
+    <color name="colorPrimaryDark">#f50612</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="text_color_title">#6D6A68</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+
+    <color name="Background">#e4e9ed</color>
+    //not used
+
+    <color name="transparent">#00FFFFFF</color>
+    <color name="dividercolor">#d7d0d0</color>
+
+    <color name="grey_300">#E0E0E0</color>
+
+
+    <!-- sand -->
+
+    <!-- orange -->
+
+    <!-- candy -->
+
+    <!-- blossom -->
+
+    <!-- grape -->
+
+    <!-- deep -->
+
+    <!-- sky -->
+
+    <!-- grass -->
+
+    <!-- dark -->
+
+    <!-- snow -->
+
+    <!-- sea -->
+
+    <!-- blood -->
+
+
+    <!-- Aadhar card-->
+
+    <color name="app_background">#57ece6e6</color>
+
+    <!-- Black Transparent -->
+
+    <color name="transparent_black_percent_40">#66000000</color>
+    <color name="grey_light">#fb717070</color>
+    <color name="text_color_grey">#3a3232</color>
+    <color name="grey_background">#dfdcdc</color>
+    <color name="light_gray_background">#f0f2f2f2</color>
+    <color name="textProductBackground">#736e6e</color>
+    <color name="listview_group_text_color_before">#555555</color>
+    <color name="listview_group_arrow_image_color_before">#555555</color>
+
+    <!-- listview after expanded -->
+    <color name="listview_group_text_color_after">#555555</color>
+    <color name="GRAPEFRUIT">#DA4453</color>
+    <color name="bittersweet">#fc6e51</color>
+    <color name="Sunflower">#ffce54</color>
+    <color name="grass">#a0d468</color>
+    <color name="mint">#48cfad</color>
+    <color name="lavender">#ac92ec</color>
+    <color name="pinkrose">#ec87c0</color>
+</resources>

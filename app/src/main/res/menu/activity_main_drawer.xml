@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_myorder"
+            android:iconTint="@color/colorPrimary"
+            android:title="My Orders" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_products"
+            android:iconTint="@color/colorPrimary"
+            android:title="Most Prchased Product" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_nav_myaccount"
+            android:iconTint="@color/colorPrimary"
+            android:title="Account Details" />
+
+        <item
+            android:id="@+id/nav_Products"
+            android:icon="@drawable/ic_nav_myorders"
+            android:iconTint="@color/colorPrimary"
+            android:title="Products" />
+        <item
+            android:id="@+id/nav_Product_videos"
+            android:icon="@drawable/ic_baseline_theaters_24px"
+            android:iconTint="@color/colorPrimary"
+            android:title="Product videos" />
+        <item
+            android:id="@+id/nav_Enquiry_generation"
+            android:icon="@drawable/ic_baseline_mail_24px"
+            android:iconTint="@color/colorPrimary"
+            android:title="Enquiry generation" />
+        <item
+            android:id="@+id/nav_Place_your_order_Buy_here"
+            android:icon="@drawable/ic_baseline_shopping_basket_24px"
+            android:iconTint="@color/colorPrimary"
+            android:title="Place your order/Buy here" />
+        <item
+            android:id="@+id/ic_baseline_theaters_24px"
+            android:icon="@drawable/ic_baseline_theaters_24px"
+            android:iconTint="@color/colorPrimary"
+            android:title="Comparision with compititors" />
+        <item
+            android:id="@+id/Services_and_repair"
+            android:icon="@drawable/ic_baseline_build_24px"
+            android:iconTint="@color/colorPrimary"
+            android:title="Services and repair" />
+        <item
+            android:id="@+id/Technical_Documents_Library"
+            android:icon="@drawable/ic_baseline_assignment_24px"
+            android:iconTint="@color/colorPrimary"
+            android:title="Technical Documents Library" />
+        <item
+            android:id="@+id/Engineering"
+            android:icon="@drawable/ic_baseline_build_24px"
+            android:iconTint="@color/colorPrimary"
+            android:title="Engineering" />
+        <item
+            android:id="@+id/Latest_updates"
+            android:icon="@drawable/ic_outline_settings_remote_24px"
+            android:iconTint="@color/colorPrimary"
+            android:title="Latest updates" />
+        <item
+            android:id="@+id/Service_centre_and_store_location"
+            android:icon="@drawable/ic_baseline_store_24px"
+            android:iconTint="@color/colorPrimary"
+            android:title="Service centre and store location" />
+        <item
+            android:id="@+id/ic_nav_aboutus"
+            android:icon="@drawable/ic_nav_aboutus"
+            android:iconTint="@color/colorPrimary"
+            android:title="About us" />
+        <item
+            android:id="@+id/ic_nav_social"
+            android:icon="@drawable/ic_nav_myaccount"
+            android:iconTint="@color/colorPrimary"
+            android:title="Stay connected in social media" />
+        <item
+            android:id="@+id/Contact_us"
+            android:icon="@drawable/ic_baseline_contact_mail_24px"
+            android:iconTint="@color/colorPrimary"
+            android:title="Contact us" />
+        <item
+            android:id="@+id/ic_nav_Track_your_order"
+            android:icon="@drawable/ic_outline_motorcycle_24px"
+            android:iconTint="@color/colorPrimary"
+            android:title="Track your order" />
+
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_notifications"
+            android:iconTint="@color/colorPrimary"
+            android:title="Setting" />
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_logout"
+            android:iconTint="@color/colorPrimary"
+            android:title="@string/logout" />
+    </group>
+
+</menu>

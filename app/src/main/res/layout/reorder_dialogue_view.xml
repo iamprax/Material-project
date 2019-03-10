@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/register_background_edittext"
+    android:orientation="vertical"
+    android:padding="30dp"
+    >
+
+
+    <in.prax.tamalproject.view.MyTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Order id :-"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <in.prax.tamalproject.view.MyTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Details :-"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <in.prax.tamalproject.view.MyTextView
+        android:id="@+id/txtspecialoffer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/special_offer"
+        android:textColor="@color/colorPrimary"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btnReorderdialogue"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/button_selector"
+            android:padding="10dp"
+            android:text="Reorder"
+            android:textColor="@color/white" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btnModifyReorderdialogue"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/button_selector"
+            android:text="Modify Re-order"
+            android:padding="10dp"
+            android:textColor="@color/white" />
+</LinearLayout>

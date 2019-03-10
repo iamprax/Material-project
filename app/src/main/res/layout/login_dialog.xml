@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <in.prax.tamalproject.view.MyTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Login to proceed"
+        android:textSize="22sp" />
+
+    <in.prax.tamalproject.view.MyEditText
+        android:id="@+id/txtUsername"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/register_background_edittext"
+        android:hint="Email address"
+        android:paddingLeft="10dp">
+
+        <requestFocus />
+    </in.prax.tamalproject.view.MyEditText>
+
+    <in.prax.tamalproject.view.MyEditText
+        android:id="@+id/txtPassword"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/register_background_edittext"
+        android:hint="@string/Password"
+        android:inputType="textPassword"
+        android:paddingLeft="10dp" />
+
+
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btnLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/button_selector"
+            android:text="Login"
+            android:textColor="@color/white" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btnCancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/button_selector"
+            android:text="@string/new_user"
+            android:textColor="@color/white" />
+</LinearLayout>
